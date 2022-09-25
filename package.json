@@ -2,13 +2,22 @@
   "name": "job-status",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://hpg0000000946.corp.hitachi-powergrids.com:8443/html/GISC_job_analytics/",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.23.2",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.37",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-live-clock": "^6.0.6",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
